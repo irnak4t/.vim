@@ -1,4 +1,5 @@
 /dict/
 /pack/vendor/
-/colors
+/colors/
 /tmp/
+/ftplugin/**/pack/vendor/
