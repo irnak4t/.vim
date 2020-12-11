@@ -2,6 +2,8 @@ set nocompatible
 colorscheme alduin
 filetype plugin on
 filetype indent on
+set hidden
+set completeopt=menuone,noinsert
 set helplang=ja,en
 set t_Co=256
 syntax on
@@ -18,5 +20,3 @@ if has("mouse") " Enable the use of the mouse in all modes
 endif
 set laststatus=2
 
-map <C-j> :bnext<CR>
-map <C-k> :bprevious<CR>
