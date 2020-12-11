@@ -1,0 +1,11 @@
+[vendor]
+start = [
+  "cespare/vim-toml",
+  "mattn/vim-lsp-settings",
+  "prabirshrestha/asyncomplete-lsp.vim",
+  "prabirshrestha/asyncomplete.vim",
+  "prabirshrestha/vim-lsp",
+  "vim-jp/vimdoc-ja",
+]
+opt = []
+filetype = {}
