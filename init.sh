@@ -4,3 +4,5 @@ echo "Get colorschemes."
 echo "Alduin"
 curl https://raw.githubusercontent.com/AlessandroYorba/Alduin/master/colors/alduin.vim >> ~/.vim/colors/alduin.vim
 
+echo "Install all packages."
+python plugin.py

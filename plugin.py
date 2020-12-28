@@ -15,7 +15,10 @@ for provider, types in bundles.items():
                 plugin_name = plugin.split("/")[-1]
                 install_path = "./pack/vendor/" + key + "/" + plugin_name
 
-                print("Install " + plugin + "\n")
-                git.Repo.clone_from(
-                        plugin_url,
-                        install_path)
+                if os.path.exists(install_path):
+                    print("Skip to install " + plugin + "\n")
+                else:
+                    print("Install " + plugin + "\n")
+                    git.Repo.clone_from(
+                            plugin_url,
+                            install_path)
