@@ -2,8 +2,9 @@ map <C-j> :bnext<CR>
 map <C-k> :bprevious<CR>
 nnoremap <C-n> :e .<CR>
 
-inoremap "" ""<C-o>i
-inoremap '' ''<C-o>i
-inoremap () ()<C-o>i
-inoremap {} {}<C-o>i
-inoremap [] []<C-o>i
+inoremap "" ""<ESC>ci"
+inoremap '' ''<ESC>ci'
+inoremap () ()<ESC>ci)
+inoremap {} {}<ESC>ci}
+inoremap [] []<ESC>ci]
+
