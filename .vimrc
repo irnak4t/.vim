@@ -15,6 +15,9 @@ set clipboard=unnamedplus
 set whichwrap=b,s,<,>,[,]
 set directory=~/.vim/tmp/
 set ttimeoutlen=10
+set autoindent
+set smartindent
+set tabstop=4
 if has("mouse") " Enable the use of the mouse in all modes
   set mouse=a
 endif
