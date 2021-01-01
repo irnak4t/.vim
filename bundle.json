@@ -6,9 +6,7 @@
       "prabirshrestha/asyncomplete.vim",
       "prabirshrestha/vim-lsp",
       "vim-jp/vimdoc-ja",
-      "habamax/vim-godot"
-    ],
-    "opt": [
+      "habamax/vim-godot",
       "mattn/vim-lsp-settings"
     ]
   }
