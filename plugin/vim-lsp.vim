@@ -1,3 +1,5 @@
+nnoremap <expr> <silent> <C-]> execute(':LspDefinition') =~ "not supported" ? "\<C-]>" : ":echo<cr>"
+
 let g:lsp_virtual_text_enabled = 0
 let g:lsp_text_edit_enabled = 0
 
