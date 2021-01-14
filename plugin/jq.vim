@@ -1,3 +1,3 @@
 if executable("jq")
-		command! Jq :%!jq .
+	command! Jq :%!jq .
 endif
