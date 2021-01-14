@@ -3,7 +3,7 @@
 echo "Get colorschemes."
 echo "Make colors directory."
 if [ ! -d ./colors ]; then
-		mkdir -p colors
+	mkdir -p colors
 fi
 
 echo "Alduin"
