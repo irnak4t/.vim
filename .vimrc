@@ -11,13 +11,14 @@ set number
 set encoding=utf-8
 set backspace=indent,eol,start
 set autoread
-set clipboard=unnamedplus
+set clipboard=unnamed
 set whichwrap=b,s,<,>,[,]
 set directory=~/.vim/tmp/
 set ttimeoutlen=10
 set autoindent
 set smartindent
 set tabstop=4
+set shiftwidth=4
 if has("mouse") " Enable the use of the mouse in all modes
   set mouse=a
 endif
