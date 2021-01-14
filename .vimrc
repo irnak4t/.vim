@@ -11,7 +11,9 @@ set number
 set encoding=utf-8
 set backspace=indent,eol,start
 set autoread
-set clipboard=unnamed
+set clipboard&
+set clipboard^=unnamedplus
+set clipboard+=unnamed
 set whichwrap=b,s,<,>,[,]
 set directory=~/.vim/tmp/
 set ttimeoutlen=10
