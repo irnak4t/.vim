@@ -1,4 +1,5 @@
 set nocompatible
+set noundofile
 colorscheme alduin
 filetype plugin on
 filetype indent on
