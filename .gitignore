@@ -4,4 +4,6 @@ netrw*
 /pack/vendor/
 /colors/
 /tmp/
+/undo/
+/backup/
 /ftplugin/**/pack/vendor/
